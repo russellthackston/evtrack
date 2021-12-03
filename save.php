@@ -87,7 +87,7 @@ if ($_POST['action'] == "init") {
   $xml .= ' <document>'.$_POST['docw'] .'x'. $_POST['doch'].'</document>' .PHP_EOL;
   $xml .= ' <task>'.$_POST['task'].'</task>' .PHP_EOL;
   $xml .= '</data>' .PHP_EOL;
-  file_put_contents(LOGDIR."/".$fid.".xml", $xml);
+  //file_put_contents(LOGDIR."/".$fid.".xml", $xml);
 
   // Notify recording script
   echo $fid;
