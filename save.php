@@ -11,7 +11,7 @@
  * you just need to write your custom data handling stuff.
  */
 
-define('LOGDIR', "logs");
+define('LOGDIR', "/var/www/logs");
 define('LOGEXT', ".csv");
 define('INFSEP', "|||"); // Must match INFO_SEPARATOR in trackui.js
 
